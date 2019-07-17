@@ -12,15 +12,21 @@
     <p>666-666-6666</p>
     <p>www.fakesite.com</p>
     <br>
-    <label for="Name">Name:</label>
-    <input type="text">
-    <br>
-    <label for="Email">Email:</label>
-    <input type="email">
-    <br>
-    <label for="password">Password:</label>
-    <input type="password">
-    <br>
-    <input type="submit">
+    <form action="mailto:" method="POST" enctype="text/plain">
+        <label for="Name">Your Name:</label>
+        <input type="text">
+        <br>
+        <label for="Email">Email:</label>
+        <input type="email">
+        <br>
+        <label for="password">Password:</label>
+        <input type="password">
+        <br>
+        <label for="message">Your Message:</label>
+        <br>
+        <textarea name="emailMessage" id="" cols="40" rows="10"></textarea>
+        <br>
+        <input type="submit">
+    </form>
 </body>
 </html>
