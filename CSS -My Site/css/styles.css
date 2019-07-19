@@ -4,20 +4,31 @@ body {
 
 h1 {
     margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .topContainer {
     background-color: #bb1542;
+    text-align: center;
+    position: relative;
+    padding-top: 100px;
 }
 
-.midContainer {
-    width: 200px;
-    height: 200px;
+.middleContainer {
     background-color: #eb5f5d;
 }
 
 .bottomContainer {
-    width: 200px;
-    height: 200px;
     background-color: #fabc74;
+}
+
+.topCloud {
+    position: absolute;
+    top: 50px;
+    right: 650px;
+}
+
+.bottomCloud {
+    position: absolute;
+    top: 200px;
 }
